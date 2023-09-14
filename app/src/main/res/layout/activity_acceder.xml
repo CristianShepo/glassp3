@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAFA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="406dp"
+        android:layout_marginTop="92dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
+
+        <Button
+            android:layout_width="319dp"
+            android:layout_height="110dp"
+            android:layout_margin="47dp"
+            android:backgroundTint="#F8F8FF"
+            android:onClick="onClickDatos"
+            android:text="Datos personales"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="319dp"
+            android:layout_height="110dp"
+            android:layout_margin="47dp"
+            android:backgroundTint="#F8F8FF"
+            android:onClick="onClickCode"
+            android:text="QR Casino"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:layout_marginTop="512dp"
+        android:src="@drawable/logowhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
